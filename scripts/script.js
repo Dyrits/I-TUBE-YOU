@@ -19,7 +19,7 @@ function search(query = null, token = null) {
       q: query,
       pageToken: token,
       type: "video",
-      key: "AIzaSyBz5zPFBRv6aD32BlKl0oMX7Bc-M3erS34"
+      key: "APIKEY"
     },
     function(data) {
       var nextPageToken = data.nextPageToken;
